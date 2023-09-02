@@ -70,7 +70,7 @@ body {
 
 }
 
-button {
+.header-signup-button {
     width: 150px;
     display: flex;
     flex-shrink: 0;
@@ -152,4 +152,47 @@ button {
     font-size: 24px;
     display: flex;
     justify-content: flex-end;
+}
+
+.signup-container {
+    display: flex;
+    color:white;
+    background-color: #3882f6;
+    margin: 150px;
+    padding: 50px 150px;
+    align-items: center;
+    justify-content: space-between;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    height: 120px;
+}
+
+.signup-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+}
+
+.signup-text h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.signup-text p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer-signup-button {
+    margin-right: 100px;
+    padding: 5px 30px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 3px solid #f9faf8;
+    border-radius: 10px;
+   
+
 }
