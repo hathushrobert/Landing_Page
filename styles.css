@@ -1,17 +1,25 @@
 .placeholder-img {
-    width: 300px;
-    height: 200px;
+    width: 600px;
+    height: 300px;
 }
 
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
     display: flex;
     flex-direction: column;
+    background-color: #1f2937;
+    padding: 25px 50px 25px 300px;
 
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .header-top {
@@ -19,18 +27,24 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 200px;
+    margin-bottom: 100px;
 }
 
 .header-top ul {
     display:flex;
     gap: 20px;
+    list-style: none;
+}
+
+.header-top ul a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 .header-content {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    gap:50px;
 }
 
 .header-text {
@@ -40,8 +54,27 @@ body {
     flex-wrap: wrap;
 }
 
+.headline {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin:0;
+}
+
+.secondary-text {
+    font-size: 24px;
+    color: #f9faf8;
+
+}
+
 button {
-    width: 100px;
+    width: 150px;
     display: flex;
     flex-shrink: 0;
+    color: white;
+    background-color: #3882f6;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 300; 
 }
