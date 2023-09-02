@@ -2,3 +2,46 @@
     width: 300px;
     height: 200px;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header-top {
+    display:flex;    
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 200px;
+}
+
+.header-top ul {
+    display:flex;
+    gap: 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 100px;
+    display: flex;
+    flex-shrink: 0;
+}
