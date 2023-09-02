@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
     <div class="header">
         <div class="header-top">
-            Header logo
+            <h1 class="logo">Header logo</h1>
             <ul>
                 <li><a href="#">Header link one</a></li>
                 <li><a href="#">Header link two</a></li>
@@ -17,23 +18,51 @@
         </div>
 
         <div class="header-content">
-            <h1>This website is awesome</h1>
-            This website has some subtext that foes here under the main title. It's a smalle font and the color is lower contrast
-            <button type="button">Sign up</button>
+
+            <div class="header-text">
+                <h1 class="headline">This website is awesome</h1>
+                <p class="secondary-text">This website has some subtext that goes here under the main title. It's a smalle font and the color is lower contrast<p></p>
+                <button type="button" class="header-signup-button">Sign up</button>
+            </div>
+
+            <img class="placeholder-img" src="images/image.jpg" alt="placeholder image">
 
         </div>
 
     </div>
-    <div class="image-container">
+    <div class="gallery-container">
+        <h1 class="gallery-heading">Some random information</h1>
+        <div class="gallery">
+
+            <div class="image-container"><img src="images/galleryImage1.jpg" alt="img1" class="galleryImage">This is some subtext under an illustration or image</div>
+            <div class="image-container"><img src="images/galleryImage2.jpg" alt="img2" class="galleryImage">This is some subtext under an illustration or image</div>
+            <div class="image-container"><img src="images/galleryImage3.jpg" alt="img3" class="galleryImage">This is some subtext under an illustration or image</div>
+            <div class="image-container"><img src="images/galleryImage4.jpg" alt="img4" class="galleryImage">This is some subtext under an illustration or image</div>
+
+            
+            
+        </div>
+
 
     </div>
     <div class="quote-container">
+        <p class="quote">This is an inspiring quote, or a testimonial from a customer.
+        Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+
+        <p class="quoter">-Thor, God of Thunder</p>
 
     </div>
     <div class="signup-container">
+        <div class="signup-text">
+            <h2>Call to action! It's time!</h2>
+            <p>Sign up for our product by clicking that button right over there!</p>
+        </div>
+
+        <button type="button" class="footer-signup-button"> Sign up</button>
 
     </div>
     <div class="footer">
+        <p>Copyright &#169 The Odin Project 2021</p>
 
     </div>
     
