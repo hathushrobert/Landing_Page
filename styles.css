@@ -91,6 +91,7 @@ button {
     flex-direction: column;
     flex-wrap: wrap;
     flex: 1;
+    margin-bottom: 100px;
 }
 
 .gallery-heading {
@@ -128,3 +129,27 @@ button {
     margin-bottom: 50px;
 }
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 300px;
+    flex-wrap: wrap;
+    background-color: #e5e7eb;
+}
+
+.quote, .quoter {
+    color: #1f2937;
+    
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quoter {
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
